@@ -1,9 +1,5 @@
-# This file should ensure the existence of records required to run the application in every environment (production,
-# development, test). The code here should be idempotent so that it can be executed at any point in every environment.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Example:
-#
-#   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
-#     MovieGenre.find_or_create_by!(name: genre_name)
-#   end
+bike1 = Bike.create(name: "Polygon Siskiu D6 SE", brand: "Polygon", model_year: "2024", price: 999, description: "The Polygon Siskiu D6 is a versatile full-suspension xc/trail bike designed for riders seeking performance and value. Featuring 120mm of travel, Shimano Deore 1x10 drivetrain with a wide 11-42T cassette, dropper post, and hydraulic disc brakes, it's ready to hit some singletrack!", category: "Mountain Bike")
+
+bike2 = Bike.create(name: "Superior X-Road Team Issue SE", brand: "Polygon", model_year: "2024", price: 1599, description: "Weighing in at 8.1kg the Superior X-Road Team Issue SE is a lightweight carbon road bike built for endurance and all-day comfort. With its Shimano Ultegra 2x11 drivetrain, hydraulic disc brakes, and aerodynamic D-shaped seatpost, it's ready to tackle long rides and gran fondos with ease.", category: "Road Bike")
+
+bike3 = Bike.create(name: "Ex-Demo Intense 951 Series", brand: "Intense 951", model_year: "2024", price: 1999, description: "Built for those who crave versatility and confidence across all terrains. With 150mm front and 140mm rear travel, this bike is perfect for tackling technical descents while remaining stable and smooth on the climbs. A full-carbon frame, high-quality FOX suspension, and SRAM NX drivetrain make the 951 Trail a highly capable, affordable, do-it-all trail machine that performs on everything from rough, rocky descents to flowing bike parks.", category: "Trail Bike")
