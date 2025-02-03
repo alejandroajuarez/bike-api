@@ -1,3 +1,4 @@
+json.id           bike.id
 json.name         bike.name
 json.brand        bike.brand
 json.model_year   bike.model_year
