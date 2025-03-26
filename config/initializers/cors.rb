@@ -1,9 +1,6 @@
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins '*'  # Replace '*' with specific domains like 'example.com' for security
-
-    resource '*',
-      headers: :any,
-      methods: [:get, :post, :put, :patch, :delete, :options, :head]
+    origins "example.com", "localhost:5173", "bike-frontend-i9kq.onrender.com"
+    resource "*", headers: :any, methods: [:get, :post, :patch, :put, :delete]
   end
 end
