@@ -17,7 +17,8 @@ class BikesController < ApplicationController
       model_year:   params[:model_year],
       price:        params[:price],
       description:  params[:description],
-      category:     params[:category]
+      category:     params[:category],
+      image_url:    params[:image_url]
     )
     @bike.save
     render :show
